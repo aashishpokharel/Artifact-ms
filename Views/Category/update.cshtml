@@ -1,0 +1,121 @@
+    @{
+
+        ViewData["Title"] = "Update Category";
+    }  
+      
+      <script>
+         function display_update()
+         {
+            document.getElementById("update_box").classList.remove("invisible");
+            document.getElementById("update_box").classList.add("flexbox");
+            document.getElementById("update_box").classList.add("flexbox-centre");
+
+            document.getElementById("search_box").classList.remove("flexbox");
+            document.getElementById("search_box").classList.remove("flexbox-centre");
+            document.getElementById("search_box").classList.add("invisible");
+         }
+      </script>
+
+
+      <div class="flexbox flexbox-column">
+         <div class="flexbox flexbox-centre">
+            <h1>
+               Update Category
+            </h1>
+         </div>
+
+         <div class="flexbox flexbox-centre" id="search_box">
+            <form action="" method="POST">
+               <table>
+                  <tr>
+                     <td align="left">
+                        <label for="c_category">Select category to update:</label>
+                     </td>
+                     <td></td>
+                     <td align="right">
+                        <select name="c_category" id="c_category" required class = 'form-control'>
+                           <option value="">-Select-</option>
+                           
+                        </select>
+                        <br/>
+                        <input type="submit" value="Select" name="c_update" id="c_update" class ='btn btn-primary'>                     
+                     </td>
+                  </tr>
+               </table>
+            </form>
+         </div>
+
+         
+         <!-- main form -->
+         <br/>
+         <div id="update_box" class="form-control">
+            <form action="" method="POST">
+               <input type="number" name="c_id" id="c_id" class="invisible" value="" >
+               <table>
+                  <tr>
+                     <td align="right">
+                        Category Id:
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right">
+                        <label for="c_name">Category name:</label>
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        <input type="text" name="c_name" id="c_name" value="" class = 'form-control'>
+                        <br>
+                        <span class="colour-red">
+                        </span>
+                     </td>
+                  </tr>
+
+
+
+                  <tr>
+                     <td align="right">
+                        <label for="c_verifying_staff">Verified by:</label>
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        <select name="c_verifying_staff" id="c_verifying_staff" required>
+                           <option value="">-Select-</option>
+                           
+                        </select>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right">
+                        <label for="c_verifying_pw">Password:</label>
+                     </td>
+                     <td></td>
+                     <td align="left"> 
+                        <input type="password" minlength="0" name="c_verifying_pw" id="c_verifying_pw" class = 'form-control'> 
+                        <br>    
+                        <span class="colour-red">
+                           </span>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right"></td>
+                     <td></td>
+                     <td align="left">
+                        <input type="submit" name="c_submit" id="c_submit" class ='btn btn-success'>  
+                     </td>
+                  </tr>
+               </table>
+            </form>
+         </div>
+      </div>
+      
+      <div style="height: 30px;"></div>
+      <div class="flexbox flexbox-centre">
+         <button onclick="" style="cursor: pointer;" class = 'btn btn-dark'>Dashboard</button>
+      </div>

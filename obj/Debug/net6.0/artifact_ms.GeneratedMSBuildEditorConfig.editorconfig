@@ -15,6 +15,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms
 build_property._RazorSourceGeneratorDebug = 
 
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Artifact/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWZhY3QvYWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Artifact/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWZhY3QvdXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Auth/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9TaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Category/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvYWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Category/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvdXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Home/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9kYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/media/aashish/Aashish/Aashish(Academics)/6th Semester/NET Centric Computing/Project/artifact_ms/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

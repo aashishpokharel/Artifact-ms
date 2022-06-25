@@ -1,0 +1,91 @@
+@{
+    ViewData["Title"] = "Add Artifact";
+}
+<div>
+      <form action="" method="POST">
+         <div class="flexbox flexbox-column">
+            <div class="flexbox flexbox-centre">
+
+            </div>
+
+            <div class="flexbox flexbox-centre">
+               <h1>
+                  Insert Artifact
+               </h1>
+            </div>
+
+            <!-- main form -->
+            <div class="flexbox flexbox-centre">
+               <table>
+                  <tr>
+                     <td align="right">
+                        <label for="a_name">Artifact name:</label>
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        <input type="text" name="a_name" id="a_name" class = 'form-control'>
+                        <br>
+                        <span class="colour-red">
+                        </span>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right">
+                        <label for="a_category">Category:</label>
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        <select name="a_category" id="a_category" class = 'form-control'>
+                            <option> -Select-</option>
+                        </select>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right">
+                        <label for="a_verifying_staff">Verified by:</label>
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        <select name="a_verifying_staff" id="a_verifying_staff" class = 'form-control'>
+                        <option> -current user(aashish)-</option>
+                        </select>
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right">
+                        <label for="a_verifying_pw">Password:</label>
+                     </td>
+                     <td></td>
+                     <td align="left">
+                        <input type="password" min="8" name="a_verifying_pw" id="a_verifying_pw" class = 'form-control'>
+                        <br>
+                        <span class="colour-red">
+                        </span>  
+                     </td>
+                  </tr>
+
+                  <tr>
+                     <td align="right"></td>
+                     <td></td>
+                     <td align="left">
+                        <input type="submit" name="a_submit" id="a_submit" class = 'btn btn-success'>  
+                     </td>
+                  </tr>
+
+
+               </table>
+            </div>
+            
+                     
+         </div> 
+           
+      </form>
+
+      <div style="height: 30px;"></div>
+      <div class="flexbox flexbox-centre">
+         <button onclick="" style="cursor: pointer;" class = 'btn btn-dark'>Dashboard</button>
+      </div>
+</div>

@@ -1,0 +1,42 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<div>
+<div class="flexbox flexbox-column">
+         <div class="flexbox flexbox-centre">
+            <h1>
+               Dashboard
+            </h1>
+         </div>
+
+         <div class="flexbox flexbox-centre p-5">
+            <div class="flexbox flexbox-column">
+               <div class="flexbox flexbox-centre p-5">
+                  <h2>
+                     <a asp-controller="Artifact" asp-action="add" class = 'btn btn-dark'>Insert artifact</a>
+                  </h2>
+               </div>
+               <div class="flexbox flexbox-centre p-5">
+                  <h2>
+                     <a asp-controller="Artifact" asp-action="add" class="btn btn-dark">Update artifact</a>
+                  </h2>
+               </div>
+            </div>
+
+            <div class="flexbox flexbox-basis-per05"></div>
+
+            <div class="flexbox flexbox-column">
+               <div class="flexbox flexbox-centre p-5">
+                  <h2>
+                     <a asp-controller="Category" asp-action="add" class="btn btn-dark">Insert category</a>
+                  </h2>
+               </div>
+               <div class="flexbox flexbox-centre p-5">
+                  <h2>
+                     <a asp-controller="Artifact" asp-action="update" class="btn btn-dark">Update category</a>
+                  </h2>
+               </div>
+            </div>
+         </div>
+      </div>
+</div>
